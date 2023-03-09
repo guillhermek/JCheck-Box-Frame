@@ -11,6 +11,6 @@ import javax.swing.JFrame;
         CheckBoxFrame checkBoxFrame = new CheckBoxFrame();
         checkBoxFrame.setDefaultCloseOperation ( JFrame.EXIT_ON_CLOSE); 
         checkBoxFrame.setSize( 290, 125 ); 
-        checkBoxFrame.setVisible(true); // exibe o frame
-    } // fim de main
+        checkBoxFrame.setVisible(true); 
+    } 
 } 
