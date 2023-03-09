@@ -24,7 +24,7 @@ public class CheckBoxFrame extends JFrame
             setLayout(new FlowLayout() ); 
             textField = new JTextField( "Watch the font style change", 20 );
 
-            textField.setFont( new Font("Serif", Font. PLAIN, 14 ) );
+            textField.setFont( new Font("Serif", Font.PLAIN, 14 ) );
             add(textField );  
             boldJCheckBox = new JCheckBox( "Bold" ); 
             italicJCheckBox = new JCheckBox( "Italic" ); 
@@ -41,14 +41,14 @@ public class CheckBoxFrame extends JFrame
                     Font font = null;
 
                  if (boldJCheckBox.isSelected() && italicJCheckBox.isSelected() ){
-                     font = new Font("Serif", Font. BOLD + Font. ITALIC, 14 );
+                     font = new Font("Serif", Font.BOLD + Font.ITALIC, 14 );
                  }
                     else if (boldJCheckBox.isSelected()) 
-                        font = new Font( "Serif", Font. BOLD, 14 );
+                        font = new Font( "Serif", Font.BOLD , 14 );
                     else if (italicJCheckBox.isSelected()) 
-                        font = new Font("Serif", Font. ITALIC, 14 );
+                        font = new Font("Serif", Font.ITALIC , 14 );
                     else 
-                    font = new Font("Serif", Font. PLAIN, 14 );
+                    font = new Font("Serif", Font.PLAIN , 14 );
                     textField.setFont( font );
          }
     }
